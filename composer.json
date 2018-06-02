@@ -1,12 +1,14 @@
 {
-    "name": "yohang88/letter-avatar",
+    "name": "sivarajd/letter-avatar",
     "description": "Generate user avatar using name initials letter.",
     "keywords": [
         "letter avatar",
         "avatar",
-        "profile picture"
+        "profile picture", 
+        "hsl",
+        "hue"
     ],
-    "homepage": "https://github.com/yohang88/letter-avatar",
+    "homepage": "https://github.com/sivarajd/letter-avatar",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +16,14 @@
             "email": "yohang88@gmail.com",
             "homepage": "https://yohang.net",
             "role": "Developer"
+        },
+        {
+            "name": "Sivaraj D",
+            "email": "sivarajd@gmail.com",
+            "homepage": "https://sivarajd.in",
+            "role": "Developer"
         }
+
     ],
     "require": {
         "php" : ">=5.5.0",
@@ -27,7 +36,7 @@
     },
     "autoload": {
         "psr-4": {
-            "YoHang88\\LetterAvatar\\": "src/"
+            "SivarajD\\LetterAvatar\\": "src/"
         }
     }
 }
