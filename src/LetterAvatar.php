@@ -1,6 +1,6 @@
 <?php
 
-namespace YoHang88\LetterAvatar;
+namespace SivarajD\LetterAvatar;
 
 use Intervention\Image\ImageManager;
 

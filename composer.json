@@ -1,6 +1,7 @@
 {
     "name": "sivarajd/letter-avatar",
     "description": "Generate user avatar using name initials letter.",
+    "version": "1.0.7",
     "keywords": [
         "letter avatar",
         "avatar",
@@ -20,7 +21,6 @@
         {
             "name": "Sivaraj D",
             "email": "sivarajd@gmail.com",
-            "homepage": "https://sivarajd.in",
             "role": "Developer"
         }
 
