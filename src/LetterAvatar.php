@@ -270,6 +270,8 @@ class LetterAvatar
 
     protected function stringToColor($string)
     {
+        // 0xFFF = 4095; divided by 360 (max for hue) gives 11.375
+        // This helps in getting a full range of hues from 0 to 360
         $hue = round(hexdec(substr(md5($string),0,3))/11.375);
         $rgb = $this->hsl2rgb($hue,$this->saturation,$this->luminosity);
         return sprintf("#%02X%02X%02X",$rgb['r'],$rgb['g'],$rgb['b']);
