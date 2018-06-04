@@ -166,7 +166,8 @@ class LetterAvatar
             if ($number_of_word > 2)
                 break;
 
-            $this->name_initials .= mb_strtoupper(trim(mb_substr($word, 0, 1, 'UTF-8')));
+            preg_match('/^(\X)(.*)/u',trim($word), $firstchar);
+            $this->name_initials .= mb_strtoupper($firstchar[1]);
 
             $number_of_word++;
         }
