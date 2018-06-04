@@ -1,4 +1,4 @@
-# Letter Avatar for PHP
+ Letter Avatar for PHP
 
 Generate user avatar using name initials letter.
 
@@ -8,9 +8,12 @@ Based on the [package](https://github.com/yohang88/letter-avatar) of same name b
 
 ## Features
 * Data URI image ready (also save as PNG/JPG).
-* Fix saturation and luminosity to get consistent color
+* Works with several unicode blocks
+* Set saturation and luminosity to get consistent color
 * Customize size, shape: square, circle.
 * Small, fast.
+
+TODO: Get combining marks work for unicode characters
 
 ## Install
 
