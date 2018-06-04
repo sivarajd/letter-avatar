@@ -186,7 +186,7 @@ class LetterAvatar
         }
 
         $canvas->text($this->name_initials, 240, 240, function ($font) {
-            $font->file(__DIR__ . '/fonts/arial-bold.ttf');
+            $font->file(__DIR__ . '/fonts/unicode.ttf');
             $font->size(220);
             $font->color('#ffffff');
             $font->valign('middle');

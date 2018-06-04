@@ -8,7 +8,7 @@ Based on the [package](https://github.com/yohang88/letter-avatar) of same name b
 
 ## Features
 * Data URI image ready (also save as PNG/JPG).
-* Consistent color.
+* Fix saturation and luminosity to get consistent color
 * Customize size, shape: square, circle.
 * Small, fast.
 
@@ -30,7 +30,7 @@ use SivarajD\LetterAvatar\LetterAvatar;
 $avatar = new LetterAvatar('Steven Spielberg');
 
 // Square Shape, Size 64px, Saturation 80, Luminosity 50
-$avatar = new LetterAvatar('Steven Spielberg', 'square', 64, 50, 50);
+$avatar = new LetterAvatar('Steven Spielberg', 'square', 64, 80, 50);
 
 // Save Image As PNG/JPEG
 $avatar->saveAs('path/to/filename');
